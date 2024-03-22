@@ -13,3 +13,11 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - run: echo "Hello Wold"
+    test-job:
+      run-on: ubuntu-latest
+      steps:
+        - run: echo "sest job"
+    deploy-job:
+      run-on: ubuntu-latest
+      steps:
+        - run: echo "deploy"
